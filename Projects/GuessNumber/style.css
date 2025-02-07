@@ -1,0 +1,100 @@
+/* General Styles */
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4081;
+}
+
+/* Game Wrapper */
+#wrapper {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    background: #333;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 26px;
+    color: #ffeb3b;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #b0bec5;
+}
+
+/* Input and Button Styling */
+#guessField {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #00bcd4;
+    outline: none;
+    background-color: #262626;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#subt {
+    background: #00bcd4;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#subt:hover {
+    background: #ff4081;
+}
+
+/* Result Section */
+.resultParas {
+    margin-top: 20px;
+}
+
+.resultParas p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.lastResult, .guesses {
+    font-weight: bold;
+    color: #ffeb3b;
+}
